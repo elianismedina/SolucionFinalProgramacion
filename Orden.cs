@@ -142,7 +142,7 @@ namespace OrdenSpace
             StringBuilder s = new StringBuilder(
                 "-------------------------------------------\nListado de productos en la orden:\n-------------------------------------------"
             );
-            s.Append("\nNombre en la orde: " + name + "\nDirección de la orden: " + deliveryAddress);
+            s.Append("\nNombre en la orden: " + name + "\nDirección de la orden: " + deliveryAddress);
             s.Append("\nTotal de la orden: $" + subtotal);
             s.Append("\n-------------------------------------------");
             for (int i = 0; i < ItemList.Count; i++)

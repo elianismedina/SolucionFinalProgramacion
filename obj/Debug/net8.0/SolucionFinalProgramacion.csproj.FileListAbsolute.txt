@@ -12,3 +12,4 @@ C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\re
 C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.pdb
 C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.genruntimeconfig.cache
 C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\ref\SolucionFinalProgramacion.dll
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.sourcelink.json

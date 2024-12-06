@@ -28,10 +28,10 @@ namespace ProgramSpace
 
         ////////////////////////////////////////////////////////////////////////////////
 
-        // Main driver function
+        // Función principal
         public static void mainDriver()
         {
-            // Inventory + Order List Initialization
+            // Inicializamos el inventario y la lista de ordenes    
             Inventario inventario = new Inventario();
             ListadoOrdenes ordenes = new ListadoOrdenes();
 
@@ -60,7 +60,7 @@ namespace ProgramSpace
             }
             string StoredPassword = hashUsername("password");
 
-            // User input
+            // Entrada del usuario
 
             Console.WriteLine("Por favor ingrese su usuario");
             string userName = Console.ReadLine();
@@ -96,6 +96,7 @@ namespace ProgramSpace
                                 Console.WriteLine("(4) - Añadir producto al inventario");
                                 Console.WriteLine("(5) - Eliminar producto del inventario");
                                 Console.WriteLine("(6) - Mostrar todas la ordenes");
+                                Console.WriteLine("(7) - Consultar una orden");
                                 Console.WriteLine("(0) - Salir\n");
                                 Console.Write("Option #> ");
 
@@ -173,6 +174,58 @@ namespace ProgramSpace
                                             Console.WriteLine("No hay ordenes guardadas en el momento");
                                             Console.WriteLine("-------------------------------------------");
                                         }
+                                        break;
+                                    case "7":
+                                        // Display Order Option
+                                        if (ordenes.orderList.Count == 0)
+                                        {
+                                            Console.WriteLine("No hay ordenes guardadas en el momento");
+                                            Console.WriteLine("-------------------------------------------");
+                                            break;
+                                        }
+                                        Console.WriteLine("Por favor ingrese el número de la orden que desea consultar:\n");
+                                        string? OrderNumber_input;
+                                        Console.Write("Consultar orden #> ");
+                                        OrderNumber_input = Console.ReadLine();
+                                        Console.WriteLine("-------------------------------------------");
+                                        // Null Check
+                                        if (OrderNumber_input == null)
+                                        {
+                                            Console.WriteLine("Error en la entrada: Intenta de nuevo.");
+                                            Console.WriteLine("-------------------------------------------");
+                                            break;
+                                        }
+                                        // Correct Input Check
+                                        List<string> ord_nums = new List<string>();
+                                        for (int i = 0; i < ordenes.orderList.Count; i++)
+                                        {
+                                            ord_nums.Add((i + 1).ToString());
+                                        }
+                                        if (!ord_nums.Contains(OrderNumber_input))
+                                        {
+                                            Console.WriteLine("Error en la entrada: Por favor ingrese un número de orden válido");
+                                            Console.WriteLine("Cancelando la transacción...");
+                                            Console.WriteLine("-------------------------------------------");
+                                            break;
+                                        }
+                                        // Try and Catch Input to Int
+                                        int orderNumber;
+                                        try
+                                        {
+                                            orderNumber = Int32.Parse(OrderNumber_input);
+                                        }
+                                        catch (Exception)
+                                        {
+                                            Console.WriteLine("Error en la entrada: Por favor ingrese un número de orden válido");
+                                            Console.WriteLine("Cancelando la transacción...");
+                                            Console.WriteLine("-------------------------------------------");
+                                            break;
+                                        }
+                                        // Decrement for proper iteration number in list
+                                        orderNumber--;
+                                        // Display Order
+                                        Console.WriteLine(ordenes.orderList[orderNumber].ToString());
+                                        Console.WriteLine("-------------------------------------------");
                                         break;
                                     default:
                                         Console.WriteLine("Por favor ingrese una opción válida!");
@@ -332,7 +385,7 @@ namespace ProgramSpace
                     Console.WriteLine(orden.ToString());
                 else
                 {
-                    Console.WriteLine("Orden de  " + name + "\nOrder para: " + address);
+                    Console.WriteLine("Orden de  " + name + "\nOrden para: " + address);
                     Console.WriteLine("-------------------------------------------");
                 }
 
