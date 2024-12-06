@@ -234,19 +234,18 @@ namespace ProgramSpace
                                 }
                             }
                         }
-                        break;
+                        else
+                        {
+                            Console.WriteLine("Contraseña incorrecta, por favor intente de nuevo");
+                            userPassword = Console.ReadLine();
+                        }                        
                     }
-
-                    Console.WriteLine("Contraseña incorrecta, por favor intente de nuevo");
-                    userPassword = Console.ReadLine();
-
+                }else
+                {
+                    Console.WriteLine("Usuario incorrecto, por favor intente de nuevo");
+                    userName = Console.ReadLine();
                 }
-                break;
-
-            }
-            Console.WriteLine("Usuario incorrecto, por favor intente de nuevo");
-            userName = Console.ReadLine();
-
+            }            
         }
 
         ////////////////////////////////////////////////////////////////////////////////
