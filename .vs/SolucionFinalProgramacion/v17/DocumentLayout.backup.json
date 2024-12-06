@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|c:\\users\\elianismedina\\c#-projects\\solucionfinalprogramacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|c:\\users\\elianismedina\\c#-projects\\solucionfinalprogramacion\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|solutionrelative:inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|c:\\users\\elianismedina\\c#-projects\\solucionfinalprogramacion\\listadoordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|solutionrelative:listadoordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|c:\\users\\elianismedina\\c#-projects\\solucionfinalprogramacion\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|solutionrelative:orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|c:\\users\\elianismedina\\c#-projects\\solucionfinalprogramacion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E6935-1C04-4E7B-944D-4324C6DC8E82}|SolucionFinalProgramacion.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 194,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Inventario.cs",
+              "RelativeDocumentMoniker": "Inventario.cs",
+              "ToolTip": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Inventario.cs",
+              "RelativeToolTip": "Inventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:12:20.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListadoOrdenes.cs",
+              "DocumentMoniker": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\ListadoOrdenes.cs",
+              "RelativeDocumentMoniker": "ListadoOrdenes.cs",
+              "ToolTip": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\ListadoOrdenes.cs",
+              "RelativeToolTip": "ListadoOrdenes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:12:18.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:12:14.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Orden.cs",
+              "DocumentMoniker": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Orden.cs",
+              "RelativeDocumentMoniker": "Orden.cs",
+              "ToolTip": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Orden.cs",
+              "RelativeToolTip": "Orden.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:12:09.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Producto.cs",
+              "RelativeDocumentMoniker": "Producto.cs",
+              "ToolTip": "C:\\Users\\elianismedina\\C#-projects\\SolucionFinalProgramacion\\Producto.cs",
+              "RelativeToolTip": "Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:11:51.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

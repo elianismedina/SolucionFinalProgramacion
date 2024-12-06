@@ -1,0 +1,14 @@
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\bin\Debug\net8.0\SolucionFinalProgramacion.exe
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\bin\Debug\net8.0\SolucionFinalProgramacion.deps.json
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\bin\Debug\net8.0\SolucionFinalProgramacion.runtimeconfig.json
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\bin\Debug\net8.0\SolucionFinalProgramacion.dll
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\bin\Debug\net8.0\SolucionFinalProgramacion.pdb
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.AssemblyInfoInputs.cache
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.AssemblyInfo.cs
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.csproj.CoreCompileInputs.cache
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.dll
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\refint\SolucionFinalProgramacion.dll
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.pdb
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\SolucionFinalProgramacion.genruntimeconfig.cache
+C:\Users\elianismedina\C#-projects\SolucionFinalProgramacion\obj\Debug\net8.0\ref\SolucionFinalProgramacion.dll
